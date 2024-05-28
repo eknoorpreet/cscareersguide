@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>HI ^</pattern>
+        <template>
+            Hey, CS student! I'm here to help you with your career questions! 
+            I'm going to ask you a series of questions that will help me determine the right career for you.
+            Ready to get started?
+            <button>Yes</button>
+            <button>No</button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>NO</pattern>
+        <template>
+            No worries! Take your time! I'll be here when you need me!
+        </template>
+    </category>
+
+    <category>
+        <pattern>YES</pattern>
+        <template>
+            Alright! Let's go! What do you prefer working with more: Software Development or Data Analysis?
+            <button>Software Development</button>
+            <button>Data Analysis</button>
+        </template>
+    </category>
+
+    <!-- Branch for Software Development -->
+    <category>
+        <pattern>SOFTWARE DEVELOPMENT</pattern>
+        <template>
+            Gotcha! What interests you more: Applications or System infrastructure?
+            <button>Applications</button>
+            <button>System Infrastructure</button>
+        </template>
+    </category>
+
+    <category>
+        <pattern>APPLICATIONS</pattern>
+        <template>
+            Awesome! Based on your interest in applications, you'll thrive as a Software Engineer!
+            Here's a starting point: <a href="https://www.coursera.org/courses?query=software%20engineering">Software Engineering Courses on Coursera</a>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SYSTEM INFRASTRUCTURE</pattern>
+        <template>
+            Awesome! Based on your interest in system infrastructure, you'll thrive as a DevOps Engineer!
+            Here's a starting point: <a href="https://www.coursera.org/learn/intro-to-devops">DevOps Course on Coursera</a>
+        </template>
+    </category>
+
+    <!-- Branch for Data Analysis -->
+    <category>
+        <pattern>DATA ANALYSIS</pattern>
+        <template>
+            I see! Do you prefer working with Big Data, AI / Machine Learning, or interacting with clients?
+            <button>Big Data</button>
+            <button>AI and Machine Learning</button>
+            <button>Interacting with clients</button>
+        </template>
+    </category>
+
+    <category>
+        <pattern>BIG DATA</pattern>
+        <template>
+            Awesome! Based on your interest in big data, you'll thrive as a Data Scientist!
+            Here's a starting point: <a href="https://www.coursera.org/specializations/jhu-data-science">Data Science Specialization on Coursera</a>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AI and MACHINE LEARNING</pattern>
+        <template>
+            Nice! When it comes to AI, do you prefer focusing on the research or the application aspect?
+            <button>Research</button>
+            <button>Application</button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>Interacting with clients</pattern>
+        <template>
+            Awesome! Based on your interest interacting with clients, you'll thrive as a Business Analyst!
+            Here's a starting point: <a href="https://www.coursera.org/specializations/certified-business-analysis-professional-cbap">Certified Business Analysis Professional™ (CBAP®) Specialization</a>
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESEARCH</pattern>
+        <template>
+            Awesome! Based on your interest in AI research, you'll thrive as a Machine Learning Researcher!
+            Here's a starting point: <a href="https://www.coursera.org/learn/machine-learning">Supervised Machine Learning: Regression and Classification Course on Coursera</a>
+        </template>
+    </category>
+
+    <category>
+        <pattern>APPLICATION</pattern>
+        <template>
+            Awesome! Based on your interest in AI applications, you'll thrive as an AI Engineer!
+            Here's a starting point: <a href="https://www.coursera.org/professional-certificates/ai-engineer">IBM AI Engineering Professional Certificate Course on Coursera</a>
+        </template>
+    </category>
+
+    <category>
+      <pattern>*</pattern>
+      <template>
+        <random>
+          <li>What was that?</li>
+          <li>I don’t understand</li>
+          <li>Can you say that more clearly?</li>
+        </random>
+      </template>
+    </category>
+
+</aiml>
