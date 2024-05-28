@@ -43,6 +43,12 @@
         <template>
             Awesome! Based on your interest in applications, you'll thrive as a Software Engineer!
             Here's a starting point: <a href="https://www.coursera.org/courses?query=software%20engineering">Software Engineering Courses on Coursera</a>
+            Before you go, could you rate how I did from 1 to 5?
+            <button>1: Very dissatisfied</button>
+            <button>2: Dissatisfied</button>
+            <button>3: Neutral</button>
+            <button>4: Satisfied</button>
+            <button>5: Very Satisfied</button>
         </template>
     </category>
 
@@ -51,6 +57,12 @@
         <template>
             Awesome! Based on your interest in system infrastructure, you'll thrive as a DevOps Engineer!
             Here's a starting point: <a href="https://www.coursera.org/learn/intro-to-devops">DevOps Course on Coursera</a>
+            Before you go, could you rate how I did from 1 to 5?
+            <button>1: Very dissatisfied</button>
+            <button>2: Dissatisfied</button>
+            <button>3: Neutral</button>
+            <button>4: Satisfied</button>
+            <button>5: Very Satisfied</button>
         </template>
     </category>
 
@@ -70,6 +82,12 @@
         <template>
             Awesome! Based on your interest in big data, you'll thrive as a Data Scientist!
             Here's a starting point: <a href="https://www.coursera.org/specializations/jhu-data-science">Data Science Specialization on Coursera</a>
+            Before you go, could you rate how I did from 1 to 5?
+            <button>1: Very dissatisfied</button>
+            <button>2: Dissatisfied</button>
+            <button>3: Neutral</button>
+            <button>4: Satisfied</button>
+            <button>5: Very Satisfied</button>
         </template>
     </category>
 
@@ -87,6 +105,12 @@
         <template>
             Awesome! Based on your interest interacting with clients, you'll thrive as a Business Analyst!
             Here's a starting point: <a href="https://www.coursera.org/specializations/certified-business-analysis-professional-cbap">Certified Business Analysis Professional™ (CBAP®) Specialization</a>
+            Before you go, could you rate how I did from 1 to 5?
+            <button>1: Very dissatisfied</button>
+            <button>2: Dissatisfied</button>
+            <button>3: Neutral</button>
+            <button>4: Satisfied</button>
+            <button>5: Very Satisfied</button>
         </template>
     </category>
 
@@ -95,6 +119,12 @@
         <template>
             Awesome! Based on your interest in AI research, you'll thrive as a Machine Learning Researcher!
             Here's a starting point: <a href="https://www.coursera.org/learn/machine-learning">Supervised Machine Learning: Regression and Classification Course on Coursera</a>
+            Before you go, could you rate how I did from 1 to 5?
+            <button>1: Very dissatisfied</button>
+            <button>2: Dissatisfied</button>
+            <button>3: Neutral</button>
+            <button>4: Satisfied</button>
+            <button>5: Very Satisfied</button>
         </template>
     </category>
 
@@ -103,6 +133,48 @@
         <template>
             Awesome! Based on your interest in AI applications, you'll thrive as an AI Engineer!
             Here's a starting point: <a href="https://www.coursera.org/professional-certificates/ai-engineer">IBM AI Engineering Professional Certificate Course on Coursera</a>
+            Before you go, could you rate how I did from 1 to 5?
+            <button>1: Very dissatisfied</button>
+            <button>2: Dissatisfied</button>
+            <button>3: Neutral</button>
+            <button>4: Satisfied</button>
+            <button>5: Very Satisfied</button>
+        </template>
+    </category>
+    
+    <!-- Handling Feedback -->
+    <category>
+        <pattern>1</pattern>
+        <template>
+            Thank you for your feedback! I'm sorry I didn't meet your expectations. I'll strive to improve.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>2</pattern>
+        <template>
+            Thank you for your feedback! I'm sorry I didn't meet your expectations. I'll strive to improve.
+        </template>
+    </category>
+
+    <category>
+        <pattern>3</pattern>
+        <template>
+            Thank you for your feedback! I'm glad I could help somewhat. I'll keep working to do better.
+        </template>
+    </category>
+
+    <category>
+        <pattern>4</pattern>
+        <template>
+            Thank you for your feedback! I'm glad I could help. I'll keep striving for excellence.
+        </template>
+    </category>
+
+    <category>
+        <pattern>5</pattern>
+        <template>
+            Thank you for your feedback! I'm thrilled that I could help. Best of luck with your career!
         </template>
     </category>
 
